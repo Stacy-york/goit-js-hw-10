@@ -113,4 +113,110 @@ font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   color: #2e2f42;
 }
+/* 2-snackbar */
 
+.form{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delay-wrapper{
+  display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.delay-label{
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-left: 0;
+    text-align: left;
+}
+
+.delay-input{
+  border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #2e2f42;
+}
+
+.delay-input:hover{
+  border: 1px solid #000;
+}
+
+.delay-input:active {
+  border: 1px solid #4e75ff;
+}
+
+.state-fieldset{
+  display: flex;
+  border-radius: 4px;
+    border: 1px solid #808080;
+    width: 280px;
+    max-height: 78px;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 24px;
+    gap: 48px;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.state-fieldset:hover {
+  border: 1px solid #000;
+}
+
+.state-label{
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.state-label-name{
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+
+.submit-btn{
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #4e75ff;
+    font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+}
+
+.submit-btn:hover{
+  background-color: #6c8cff;
+}

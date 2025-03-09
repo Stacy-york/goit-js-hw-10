@@ -17,8 +17,35 @@
         </h1>
         <load src="./partials/back-link.html" />
       </div>
+
+<form class="form">
+  <div class="delay-wrapper">
+    <label class="delay-label" for="delay">
+      Delay (ms)
+      <input class="delay-input" type="number" id="delay" name="delay" required />
+    </label>
+  </div>
+
+  <fieldset class="state-fieldset">
+    <legend class="state-label">State</legend>
+    <label class="state-label-name">
+      <input type="radio" name="state" value="fulfilled" required />
+      Fulfilled
+    </label>
+    <label class="state-label-name">
+      <input type="radio" name="state" value="rejected" required />
+      Rejected
+    </label>
+  </fieldset>
+
+  <button class="submit-btn" type="submit">Create notification</button>
+</form>
+
+
     </main>
 
     <load src="./partials/footer.html" />
+
+    <script type="module" src="./js/2-snackbar.js"></script>
   </body>
 </html>
